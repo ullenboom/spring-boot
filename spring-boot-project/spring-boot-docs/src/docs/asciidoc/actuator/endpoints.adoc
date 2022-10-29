@@ -539,7 +539,7 @@ TIP: You can use the `HealthContributorRegistry` to register and unregister heal
 
 [[actuator.endpoints.health.auto-configured-health-indicators]]
 ==== Auto-configured HealthIndicators
-When appropriate, Spring Boot auto-configures the `HealthIndicators` listed in the following table.
+When appropriate, Spring Boot auto-configures the ``HealthIndicator``s listed in the following table.
 You can also enable or disable selected indicators by configuring `management.health.key.enabled`,
 with the `key` listed in the following table:
 
